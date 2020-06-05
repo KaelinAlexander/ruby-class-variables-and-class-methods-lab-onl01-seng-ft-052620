@@ -20,3 +20,4 @@ def self.count
 end
 
 def genres
+  

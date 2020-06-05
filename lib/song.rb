@@ -30,4 +30,6 @@ def self.genre_count
   genre_count = @@genres.group_by{ |artist| artist }
 end
 
+def self.artist_count
+
 end

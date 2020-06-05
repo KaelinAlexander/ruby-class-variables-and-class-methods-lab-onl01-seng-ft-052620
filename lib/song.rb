@@ -27,7 +27,7 @@ def self.artists
 end
 
 def self.genre_count
-  genre_count = @@genres.group_by{ |artist| artist }
+  genre_count = @@genres.group_by{ |artist| artist }.flat_map
 end
 
 def self.artist_count

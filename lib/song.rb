@@ -12,6 +12,7 @@ def initialize(name, artist, genre)
   end
   unless @@artists.include?(artist)
     @@artists << genre
+  end
 end
 
 def self.count

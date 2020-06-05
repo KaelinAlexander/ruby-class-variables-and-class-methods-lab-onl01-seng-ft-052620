@@ -28,3 +28,6 @@ def artists
   artists = @@artists.uniq
   genres
 end
+
+def genre_count
+  genre_count = 

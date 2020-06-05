@@ -30,8 +30,4 @@ def self.genre_count
   genre_count = @@genres.group_by{ |k| k }.flat_map{ |k, v| [k, v.size] }
 end
 
-def self.artist_count
-  artist_count = 
-end
-
 end

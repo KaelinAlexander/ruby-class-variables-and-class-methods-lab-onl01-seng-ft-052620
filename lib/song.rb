@@ -8,3 +8,5 @@ end
 def self.count
   @@count
 end
+
+def genres

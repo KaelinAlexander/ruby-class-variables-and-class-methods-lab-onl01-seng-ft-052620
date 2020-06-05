@@ -1,7 +1,8 @@
 class Song
   attr_accessor
 
-@@count 
+@@count = 0
+@@genres = []
   
 def initialize
   @@count += 1

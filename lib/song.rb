@@ -19,13 +19,11 @@ def self.count
 end
 
 def genres
-  genres = @@genres.uniq
-  genres
+  @@genres.uniq
 end
 
 def artists
-  artists = @@artists.uniq
-  artists
+  @@artists.uniq
 end
 
 def genre_count

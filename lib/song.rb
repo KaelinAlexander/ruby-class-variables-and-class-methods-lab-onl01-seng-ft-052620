@@ -21,4 +21,10 @@ end
 
 def genres
   genres = @@genres.uniq
+  genres
+end
+
+def artists
+  artists = @@artists.uniq
+  genres
 end

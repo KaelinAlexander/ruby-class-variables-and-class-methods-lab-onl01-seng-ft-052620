@@ -1,5 +1,7 @@
 class Song
-  attr_accessor 
+  attr_accessor
+
+@@count 
   
 def initialize
   @@count += 1

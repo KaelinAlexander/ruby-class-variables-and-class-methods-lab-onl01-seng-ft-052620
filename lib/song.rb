@@ -26,7 +26,7 @@ def self.artists
   @@artists.uniq
 end
 
-def genre_count
+def self.genre_count
   genre_count = @@genres.group_by{ |artist| artist }
 end
 

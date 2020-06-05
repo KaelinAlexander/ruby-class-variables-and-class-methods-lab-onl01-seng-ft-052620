@@ -30,4 +30,4 @@ def artists
 end
 
 def genre_count
-  genre_count = @@artists.group_by{ |artist| artist }
+  genre_count = @@genres.group_by{ |artist| artist }

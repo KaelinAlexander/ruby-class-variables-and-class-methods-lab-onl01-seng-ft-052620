@@ -20,4 +20,5 @@ def self.count
 end
 
 def genres
-  
+  genres = @@genres.uniq
+end
